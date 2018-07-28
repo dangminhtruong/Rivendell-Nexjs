@@ -1,10 +1,8 @@
 import React from 'react'
-import { bindActionCreators } from 'redux'
-import { actFetchStoriesRequest } from '../store/actions'
 import Header from '../components/global/header'
 import Sidebar from '../components/global/sidebar'
 import { connect } from 'react-redux'
-import Stories from '../components/pages/stories';
+import Stories from '../components/pages/index';
 
 class Index extends React.Component {
   static getInitialProps ({ store, isServer }) {

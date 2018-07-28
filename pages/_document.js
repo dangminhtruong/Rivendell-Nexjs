@@ -14,11 +14,14 @@ export default class MyDocument extends Document {
             <meta charSet="utf-8" />
 		        <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
             <link rel="stylesheet" href="http://localhost:8080/public/css/rivendell.css" />
+            <link rel="stylesheet" href="/_next/static/style.css" />
+            <link href="http://localhost:8080/public/css/prism.css" rel="stylesheet" />
             <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
         </Head>
         <body className="is-preload" id="is-body">
           <Main />
           <NextScript />
+          <script src="http://localhost:8080/public/js/prism.js"></script>
         </body>
       </html>
     )
