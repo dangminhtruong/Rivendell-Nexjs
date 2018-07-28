@@ -9,13 +9,13 @@ class RandomItem extends Component{
                 <article>
                     <header>
                         <h3>
-                            <Link href={`/story/${this.props.info.get('id')}`}>
+                            <Link as={`/story/${this.props.info.get('id')}`} href={`/story?id=${this.props.info.get('id')}`}>
                                 <a>{ this.props.info.get('title') }</a>
                             </Link>
                         </h3>
                         <time className="published" dateTime="2015-10-20">October 20, 2015</time>
                     </header>
-                    <Link href={`/story/${this.props.info.get('id')}`}>
+                    <Link as={`/story/${this.props.info.get('id')}`} href={`/story?id=${this.props.info.get('id')}`}>
                         <a className="image">
                             <img src={`${config.BASE_API_URL}/public/images/pic08.jpg`} alt="" />
                         </a>

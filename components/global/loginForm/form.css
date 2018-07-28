@@ -1,0 +1,42 @@
+.FormWrap{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 15vh;
+    padding: none;
+}
+.FormLogin{
+    border-radius: 5px;
+    width: 38vw;
+    padding: 2vw;
+    background-color: white;
+}
+
+.Left{
+    align-self: flex-start;
+    width: 30vw;
+}
+
+.Right{
+    align-self: flex-end;
+    width: 30vw;
+}
+
+@media only screen and (max-width: 600px) {
+    .FormWrap{
+        margin: 5vh;
+    }
+    .Left{
+        align-self: flex-start;
+        width: auto;
+    }
+    .FormLogin{
+        width: 100%;
+        padding: 2vw;
+        background-color: white;
+    }
+    .Right{
+        align-self: flex-end;
+        width: auto;
+    }
+}

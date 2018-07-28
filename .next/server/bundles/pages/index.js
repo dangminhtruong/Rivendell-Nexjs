@@ -67,7 +67,7 @@ module.exports =
 /******/ 	__webpack_require__.p = "";
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 3);
+/******/ 	return __webpack_require__(__webpack_require__.s = 4);
 /******/ })
 /************************************************************************/
 /******/ ({
@@ -1168,7 +1168,7 @@ var mapStateToProps = function mapStateToProps(state) {
 
 var mapDispatchToProps = function mapDispatchToProps(dispatch) {
   return {
-    getSlideBarTopFour: Object(__WEBPACK_IMPORTED_MODULE_3_redux__["bindActionCreators"])(__WEBPACK_IMPORTED_MODULE_4__store_actions__["d" /* atcGetSlideBarTopFourRequest */], dispatch)
+    getSlideBarTopFour: Object(__WEBPACK_IMPORTED_MODULE_3_redux__["bindActionCreators"])(__WEBPACK_IMPORTED_MODULE_4__store_actions__["e" /* atcGetSlideBarTopFourRequest */], dispatch)
   };
 };
 
@@ -1236,7 +1236,8 @@ function (_Component) {
           lineNumber: 10
         }
       }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1_next_link___default.a, {
-        href: "/story/".concat(this.props.detail.get('id')),
+        as: "/story/".concat(this.props.detail.get('id')),
+        href: "/story?id=".concat(this.props.detail.get('id')),
         __source: {
           fileName: _jsxFileName,
           lineNumber: 11
@@ -1254,7 +1255,8 @@ function (_Component) {
           lineNumber: 15
         }
       }, "October 17, 2015"), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1_next_link___default.a, {
-        href: "/story/".concat(this.props.detail.get('id')),
+        as: "/story/".concat(this.props.detail.get('id')),
+        href: "/story?id=".concat(this.props.detail.get('id')),
         __source: {
           fileName: _jsxFileName,
           lineNumber: 16
@@ -1273,7 +1275,8 @@ function (_Component) {
           lineNumber: 18
         }
       })))), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1_next_link___default.a, {
-        href: "/story/".concat(this.props.detail.get('id')),
+        as: "/story/".concat(this.props.detail.get('id')),
+        href: "/story?id=".concat(this.props.detail.get('id')),
         __source: {
           fileName: _jsxFileName,
           lineNumber: 22
@@ -1396,7 +1399,7 @@ var mapStateToProps = function mapStateToProps(state) {
 
 var mapDispatchToProps = function mapDispatchToProps(dispatch) {
   return {
-    getSlideBarRandom: Object(__WEBPACK_IMPORTED_MODULE_4_redux__["bindActionCreators"])(__WEBPACK_IMPORTED_MODULE_3__store_actions__["c" /* atcGetSlideBarRandomRequest */], dispatch)
+    getSlideBarRandom: Object(__WEBPACK_IMPORTED_MODULE_4_redux__["bindActionCreators"])(__WEBPACK_IMPORTED_MODULE_3__store_actions__["d" /* atcGetSlideBarRandomRequest */], dispatch)
   };
 };
 
@@ -1468,7 +1471,8 @@ function (_Component) {
           lineNumber: 11
         }
       }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1_next_link___default.a, {
-        href: "/story/".concat(this.props.info.get('id')),
+        as: "/story/".concat(this.props.info.get('id')),
+        href: "/story?id=".concat(this.props.info.get('id')),
         __source: {
           fileName: _jsxFileName,
           lineNumber: 12
@@ -1486,7 +1490,8 @@ function (_Component) {
           lineNumber: 16
         }
       }, "October 20, 2015")), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1_next_link___default.a, {
-        href: "/story/".concat(this.props.info.get('id')),
+        as: "/story/".concat(this.props.info.get('id')),
+        href: "/story?id=".concat(this.props.info.get('id')),
         __source: {
           fileName: _jsxFileName,
           lineNumber: 18
@@ -1612,7 +1617,7 @@ var mapStateToProps = function mapStateToProps(state) {
 
 var mapDispatchToProps = function mapDispatchToProps(dispatch) {
   return {
-    getListPost: Object(__WEBPACK_IMPORTED_MODULE_5_redux__["bindActionCreators"])(__WEBPACK_IMPORTED_MODULE_4__store_actions__["b" /* actFetchStoriesRequest */], dispatch)
+    getListPost: Object(__WEBPACK_IMPORTED_MODULE_5_redux__["bindActionCreators"])(__WEBPACK_IMPORTED_MODULE_4__store_actions__["c" /* actFetchStoriesRequest */], dispatch)
   };
 };
 
@@ -1744,15 +1749,15 @@ function (_React$Component) {
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "b", function() { return actFetchStoriesRequest; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "c", function() { return actFetchStoriesRequest; });
 /* unused harmony export actFetchBooks */
-/* unused harmony export actFetchSingleStoryRequest */
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "b", function() { return actFetchSingleStoryRequest; });
 /* unused harmony export actFetchStory */
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return actFetchCategoriesRequest; });
 /* unused harmony export actFetchCategories */
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "d", function() { return atcGetSlideBarTopFourRequest; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "e", function() { return atcGetSlideBarTopFourRequest; });
 /* unused harmony export actGetSlideBarTopFour */
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "c", function() { return atcGetSlideBarRandomRequest; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "d", function() { return atcGetSlideBarRandomRequest; });
 /* unused harmony export atcGetSlideBarRandom */
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__types__ = __webpack_require__("./store/types.js");
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__config_axios__ = __webpack_require__("./config/axios.js");
@@ -1845,7 +1850,7 @@ var FETCH_SIDEBAR_RANDOM = 'FETCH_SIDEBAR_RANDOM';
 
 /***/ }),
 
-/***/ 3:
+/***/ 4:
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = __webpack_require__("./pages/index.js");
