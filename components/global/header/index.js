@@ -66,10 +66,12 @@ class Header extends Component {
                     <section>
                         <ul className="links">
                             <li>
-                                <a href="#">
-                                    <h3>Lorem ipsum</h3>
-                                    <p>Feugiat tempus veroeros dolor</p>
-                                </a>
+                                <Link href="/editor">
+                                    <a href="/editor">
+                                        <h3>New Post</h3>
+                                        <p>Create a new post</p>
+                                    </a>
+                                </Link>
                             </li>
                             <li>
                                 <a href="#">
@@ -93,10 +95,13 @@ class Header extends Component {
                     </section>
                     <section>
                         <ul className="actions stacked">
-                            <li><a href="#" className="button large fit">Log In</a></li>
+                            <li>
+                                <Link href="/login">
+                                    <a href="/login" className="button large fit">Log In</a>
+                                </Link>
+                            </li>
                         </ul>
                     </section>
-
                 </section>
             </div>
         )
