@@ -5,6 +5,7 @@ import { connect } from 'react-redux';
 import { actFetchSingleStoryRequest } from '../../store/actions';
 import Link from 'next/link';
 import config from '../../config/config';
+import ReactMarkdown from 'react-markdown';
 
 class SingleStory extends Component {
 
@@ -37,7 +38,7 @@ class SingleStory extends Component {
                         <span className="image featured">
                             <img src={`${config.BASE_API_URL}/public/images/js.gif`} alt="rivendell" />
                         </span>
-                        <p>{ this.props.story.get('body') }</p>
+                        <ReactMarkdown source = { this.props.story.get('body') } />
                     </article>
                 </div>
                 <Footer/>

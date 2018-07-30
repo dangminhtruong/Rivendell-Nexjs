@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 import Link from 'next/link';
 import config from '../../../config/config';
+import ReactMarkdown from 'react-markdown';
 
 class Story extends Component {
     render() {
@@ -32,7 +33,7 @@ class Story extends Component {
                         <img src={`${config.BASE_API_URL}/public/images/js.gif`}  style={{ width:'100%' }} alt="" />
                     </a>
                 </Link >
-                    <p>{ this.props.story.get('body') }</p>
+                    <ReactMarkdown source={ this.props.story.get('body') } />
                 <footer>
                     <ul className="actions">
                         <li>

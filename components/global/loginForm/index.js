@@ -20,7 +20,6 @@ class Index extends Component {
         return { isServer }
     }
 
-
     handleChange(event) {
         const target = event.target;
         const value = target.value;

@@ -84,6 +84,8 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_react___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1_react__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_next_document__ = __webpack_require__("next/document");
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_next_document___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2_next_document__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__app_css__ = __webpack_require__("./pages/app.css");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__app_css___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_3__app_css__);
 
 var _jsxFileName = "/home/truongdang/Documents/projects/Reactjs/rivendell-SSR/pages/_document.js";
 
@@ -110,6 +112,7 @@ function _inherits(subClass, superClass) { if (typeof superClass !== "function" 
 
 
 
+
 var MyDocument =
 /*#__PURE__*/
 function (_Document) {
@@ -127,34 +130,27 @@ function (_Document) {
       return __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement("html", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 11
+          lineNumber: 12
         }
       }, __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_2_next_document__["Head"], {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 12
+          lineNumber: 13
         }
       }, __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement("title", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 13
+          lineNumber: 14
         }
       }, "Truong Dang"), __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement("meta", {
         charSet: "utf-8",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 14
+          lineNumber: 15
         }
       }), __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement("meta", {
         name: "viewport",
         content: "width=device-width, initial-scale=1, user-scalable=no",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 15
-        }
-      }), __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement("link", {
-        rel: "stylesheet",
-        href: "http://localhost:8080/public/css/rivendell.css",
         __source: {
           fileName: _jsxFileName,
           lineNumber: 16
@@ -167,41 +163,28 @@ function (_Document) {
           lineNumber: 17
         }
       }), __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement("link", {
-        href: "http://localhost:8080/public/css/prism.css",
-        rel: "stylesheet",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 18
-        }
-      }), __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement("link", {
         rel: "stylesheet",
         href: "https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 19
+          lineNumber: 18
         }
       })), __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement("body", {
         className: "is-preload",
         id: "is-body",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 21
+          lineNumber: 20
         }
       }, __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_2_next_document__["Main"], {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 22
+          lineNumber: 21
         }
       }), __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_2_next_document__["NextScript"], {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 23
-        }
-      }), __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement("script", {
-        src: "http://localhost:8080/public/js/prism.js",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 24
+          lineNumber: 22
         }
       })));
     }
@@ -239,6 +222,13 @@ function (_Document) {
 
   return MyDocument;
 }(__WEBPACK_IMPORTED_MODULE_2_next_document___default.a);
+
+
+
+/***/ }),
+
+/***/ "./pages/app.css":
+/***/ (function(module, exports) {
 
 
 

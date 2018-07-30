@@ -67,7 +67,7 @@ module.exports =
 /******/ 	__webpack_require__.p = "";
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 4);
+/******/ 	return __webpack_require__(__webpack_require__.s = 3);
 /******/ })
 /************************************************************************/
 /******/ ({
@@ -543,6 +543,8 @@ function (_Component) {
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_next_link__ = __webpack_require__("next/link");
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_next_link___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1_next_link__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__config_config__ = __webpack_require__("./config/config.js");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_react_markdown__ = __webpack_require__("react-markdown");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_react_markdown___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_3_react_markdown__);
 var _jsxFileName = "/home/truongdang/Documents/projects/Reactjs/rivendell-SSR/components/global/post/index.js";
 
 function _typeof(obj) { if (typeof Symbol === "function" && typeof Symbol.iterator === "symbol") { _typeof = function _typeof(obj) { return typeof obj; }; } else { _typeof = function _typeof(obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }; } return _typeof(obj); }
@@ -558,6 +560,7 @@ function _possibleConstructorReturn(self, call) { if (call && (_typeof(call) ===
 function _assertThisInitialized(self) { if (self === void 0) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return self; }
 
 function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function"); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
+
 
 
 
@@ -581,90 +584,90 @@ function (_Component) {
         className: "post",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 8
+          lineNumber: 9
         }
       }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("header", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 9
+          lineNumber: 10
         }
       }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("div", {
         className: "title",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 10
+          lineNumber: 11
         }
       }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("h2", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 11
+          lineNumber: 12
         }
       }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1_next_link___default.a, {
         as: "/story/".concat(this.props.story.get('id')),
         href: "/story?id=".concat(this.props.story.get('id')),
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 12
+          lineNumber: 13
         }
       }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("a", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 13
+          lineNumber: 14
         }
       }, this.props.story.get('title')))), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("p", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 16
+          lineNumber: 17
         }
       }, "Lorem ipsum dolor amet nullam consequat etiam feugiat")), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("div", {
         className: "meta",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 18
+          lineNumber: 19
         }
       }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("time", {
         className: "published",
         dateTime: "2015-11-01",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 19
+          lineNumber: 20
         }
       }, "November 1, 2015"), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1_next_link___default.a, {
         href: "/",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 20
+          lineNumber: 21
         }
       }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("a", {
         className: "author",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 21
+          lineNumber: 22
         }
       }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("span", {
         className: "name",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 22
+          lineNumber: 23
         }
       }, this.props.story.get('username')), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("img", {
         src: "".concat(__WEBPACK_IMPORTED_MODULE_2__config_config__["a" /* default */].BASE_API_URL, "/public/images/avatar.jpg"),
         alt: "",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 25
+          lineNumber: 26
         }
       }))))), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1_next_link___default.a, {
         href: "/",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 30
+          lineNumber: 31
         }
       }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("a", {
         className: "image featured",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 31
+          lineNumber: 32
         }
       }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("img", {
         src: "".concat(__WEBPACK_IMPORTED_MODULE_2__config_config__["a" /* default */].BASE_API_URL, "/public/images/js.gif"),
@@ -674,97 +677,98 @@ function (_Component) {
         alt: "",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 32
+          lineNumber: 33
         }
-      }))), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("p", {
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 35
-        }
-      }, this.props.story.get('body')), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("footer", {
+      }))), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_3_react_markdown___default.a, {
+        source: this.props.story.get('body'),
         __source: {
           fileName: _jsxFileName,
           lineNumber: 36
+        }
+      }), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("footer", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 37
         }
       }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("ul", {
         className: "actions",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 37
+          lineNumber: 38
         }
       }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("li", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 38
+          lineNumber: 39
         }
       }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1_next_link___default.a, {
         as: "/story/".concat(this.props.story.get('id')),
         href: "/story?id=".concat(this.props.story.get('id')),
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 39
+          lineNumber: 40
         }
       }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("a", {
         className: "button large",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 40
+          lineNumber: 41
         }
       }, "Continue Reading")))), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("ul", {
         className: "stats",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 44
+          lineNumber: 45
         }
       }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("li", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 45
+          lineNumber: 46
         }
       }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1_next_link___default.a, {
         href: "/",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 45
+          lineNumber: 46
         }
       }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("a", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 45
+          lineNumber: 46
         }
       }, "General"))), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("li", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 46
+          lineNumber: 47
         }
       }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1_next_link___default.a, {
         href: "/",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 46
+          lineNumber: 47
         }
       }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("a", {
         className: "icon fa-heart",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 46
+          lineNumber: 47
         }
       }, "28"))), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("li", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 47
+          lineNumber: 48
         }
       }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1_next_link___default.a, {
         href: "/",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 47
+          lineNumber: 48
         }
       }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("a", {
         className: "icon fa-comment",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 47
+          lineNumber: 48
         }
       }, "128"))))));
     }
@@ -1680,6 +1684,12 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_react_redux__ = __webpack_require__("react-redux");
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_react_redux___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_3_react_redux__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__components_pages_index__ = __webpack_require__("./components/pages/index.js");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5_prismjs__ = __webpack_require__("prismjs");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5_prismjs___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_5_prismjs__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6_prismjs_components_prism_jsx__ = __webpack_require__("prismjs/components/prism-jsx");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6_prismjs_components_prism_jsx___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_6_prismjs_components_prism_jsx__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__prism_css__ = __webpack_require__("./pages/prism.css");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__prism_css___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_7__prism_css__);
 var _jsxFileName = "/home/truongdang/Documents/projects/Reactjs/rivendell-SSR/pages/index.js";
 
 function _typeof(obj) { if (typeof Symbol === "function" && typeof Symbol.iterator === "symbol") { _typeof = function _typeof(obj) { return typeof obj; }; } else { _typeof = function _typeof(obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }; } return _typeof(obj); }
@@ -1702,6 +1712,9 @@ function _inherits(subClass, superClass) { if (typeof superClass !== "function" 
 
 
 
+
+
+
 var Index =
 /*#__PURE__*/
 function (_React$Component) {
@@ -1714,28 +1727,33 @@ function (_React$Component) {
   }
 
   _createClass(Index, [{
+    key: "componentDidMount",
+    value: function componentDidMount() {
+      __WEBPACK_IMPORTED_MODULE_5_prismjs___default.a.highlightAll();
+    }
+  }, {
     key: "render",
     value: function render() {
       return __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("div", {
         id: "wrapper",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 13
+          lineNumber: 20
         }
       }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1__components_global_header__["a" /* default */], {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 14
+          lineNumber: 21
         }
       }), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_4__components_pages_index__["a" /* default */], {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 15
+          lineNumber: 22
         }
       }), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_2__components_global_sidebar__["a" /* default */], {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 16
+          lineNumber: 23
         }
       }));
     }
@@ -1754,6 +1772,13 @@ function (_React$Component) {
 }(__WEBPACK_IMPORTED_MODULE_0_react___default.a.Component);
 
 /* harmony default export */ __webpack_exports__["default"] = (Object(__WEBPACK_IMPORTED_MODULE_3_react_redux__["connect"])()(Index));
+
+/***/ }),
+
+/***/ "./pages/prism.css":
+/***/ (function(module, exports) {
+
+
 
 /***/ }),
 
@@ -1862,7 +1887,7 @@ var FETCH_SIDEBAR_RANDOM = 'FETCH_SIDEBAR_RANDOM';
 
 /***/ }),
 
-/***/ 4:
+/***/ 3:
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = __webpack_require__("./pages/index.js");
@@ -1884,10 +1909,31 @@ module.exports = require("next/link");
 
 /***/ }),
 
+/***/ "prismjs":
+/***/ (function(module, exports) {
+
+module.exports = require("prismjs");
+
+/***/ }),
+
+/***/ "prismjs/components/prism-jsx":
+/***/ (function(module, exports) {
+
+module.exports = require("prismjs/components/prism-jsx");
+
+/***/ }),
+
 /***/ "react":
 /***/ (function(module, exports) {
 
 module.exports = require("react");
+
+/***/ }),
+
+/***/ "react-markdown":
+/***/ (function(module, exports) {
+
+module.exports = require("react-markdown");
 
 /***/ }),
 
